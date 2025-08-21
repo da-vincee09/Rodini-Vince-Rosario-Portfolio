@@ -5,7 +5,10 @@
     <meta charset="UTF-8">
     <title>My Resume</title>
     <link href="./css/style.css" rel="stylesheet">
+    <link rel="icon" type="image/png" href="assets/favicon.png">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
 <body class="wrapper">
@@ -89,9 +92,9 @@
                         <h2>Work Experience</h2>
                         <ul class="work-experience-list">
                             <li>
-                                <strong>Private Tutor</strong><br>
+                                <strong style="t:1rem">Private Tutor</strong><br>
                                 <em>Self-Employed | 2020 - 2022</em>
-                                <ul>
+                                <ul class="work-experience-list-inner">
                                     <li>
                                         Provided one-on-one tutoring to two students (Kindergarten to Grade 1 and Grade 1 to Grade 2).
                                     </li>
@@ -109,10 +112,10 @@
                 </div>
             </section>
         
-            <section id="skills" >
+            <section id="skills">
                 <div>
                     <h2 class="centered-htwo">Skills</h2>
-                <div class="two-column-layout">
+                <div class="two-column-layout row">
                
                 <div>
                     <h3>Technical Skills</h3>
@@ -271,18 +274,19 @@
     <footer class="main-content" style="min-height: 0;">
         <p>You are the writer of your own destiny. — <strong>Rodini</strong></p>
         
-        <div class="footer-links">
-            <a href="#about">About</a>
-            <a href="#education">Education</a>
-            <a href="#skills">Skills</a>
-            <a href="#contact">Contact</a>
-        </div>
-
-        <div class="footer-social">
-            <a href="https://github.com/da-vincee09" target="_blank">🐙</a>
-            <a href="https://www.facebook.com/rdnd.i/" target="_blank">🔗</a>
-            <a href="mailto:rodinirosario@gmail.com">✉️</a>
-        </div>
+        <p>© Rodini Vince Rosario. All rights reserved.</p>
+        
+        <nav class="footer-social" aria-label="Social Media">
+            <a href="https://github.com/da-vincee09" target="_blank" rel="noopener noreferrer">
+                <i class="fab fa-github"></i>
+            </a>
+            <a href="https://www.facebook.com/rdnd.i/" target="_blank" rel="noopener noreferrer">
+                <i class="fab fa-facebook"></i>
+            </a>
+            <a href="mailto:rodinirosario@gmail.com">
+                <i class="fas fa-envelope"></i>
+            </a>
+        </nav>
     </footer>
 
 
