@@ -159,11 +159,22 @@ ul li {
 }
 
 
-.work-experience-list li{
-  margin-left: 5rem;
-  font-size: 1.5rem;
-  
+.work-experience-list {
+  list-style-position: inside; /* keeps bullet inside the element */
+  padding-left: 1rem;           /* small padding instead of 5rem */
+  margin: 0;
 }
+
+.work-experience-list li {
+  margin-left: 0;               /* remove extra margin */
+  text-indent: 0;               /* remove weird negative indent */
+  margin-bottom: 0.5rem;        /* optional spacing between items */
+}
+
+.work-experience-list-inner li{
+  margin-left:1rem;
+}
+
 
 .skills-grid {
   display: grid; 
@@ -580,13 +591,14 @@ footer strong {
 
 
 
+
+
 @media (max-width: 1450px) {
 
-  
-
   .work-experience-list li {
-    margin-left: 5rem;
+    margin-left: 0; /* remove left margin */
     font-size: 1.25rem;
+    text-align: left;
   }
 
   .tutor-img img {
