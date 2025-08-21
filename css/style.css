@@ -821,7 +821,6 @@ footer strong {
     flex-direction: column;
   }
 
-  
 
   .project-card img {
     width: 100%;
@@ -833,6 +832,10 @@ footer strong {
     font-size: 1.5rem;
   }
 
+  .projects-htwo{
+    padding-top: 3rem;
+  }
+
   .project-text p {
     font-size: 1.2rem;
   }
@@ -842,7 +845,28 @@ footer strong {
   }
 
   .hobby-grid{
-    font-size: 1.5rem;;
+    font-size: 1rem;
+   
+  }
+
+  #skills h2{
+    padding-bottom:0;
+    padding-top:4rem;
+  }
+  .awards-htwo{
+    padding-top: 4rem;
+  }
+
+  .others-htwo{
+    padding-top:3rem;
+  }
+
+
+
+  .hobby-htwo{
+    padding-top:2.5rem;
+    padding-bottom:0;
+    text-align: left;
   }
 }
 
