@@ -186,6 +186,7 @@ ul li {
 }
 
 
+
 .skill-card {
   width: 180px;
   height: 220px;
@@ -195,7 +196,6 @@ ul li {
   color: #f5f5f5;
   align-items: center;
   justify-content: center;
-
   border-radius: 16px;
   padding: 1.5rem;
   text-align: center;
@@ -654,15 +654,11 @@ footer strong {
 
   .skills-grid {
     grid-template-columns: repeat(2, 1fr);
-    gap: 1rem;
-    padding:1rem
   }
 
   .project-card {
     flex-direction: column;
   }
-
-
 
   .project-card img {
     width: 100%;
